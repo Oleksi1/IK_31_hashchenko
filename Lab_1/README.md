@@ -9,3 +9,4 @@ Branch_1
 
 На мою думку конфлікт виник тому, що частина файлу в двох гілках була змінена по різному. Я прибрав зміни, що заважали.
 Роблю зміни у Web Git на синхронізую їх з репозиторієм на ПК за допомогою git pull.
+![alt text](https://image.spreadshirtmedia.com/image-server/v1/mp/compositions/T127A1MPA215PT21X9Y6D1020474073FS730Cx000000/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true,version=1565213902/heavy-metal-skull-with-devil-horns-hand-small-buttons.jpg)
