@@ -9,5 +9,5 @@ Branch_1
 
 На мою думку конфлікт виник тому, що частина файлу в двох гілках була змінена по різному. Я прибрав зміни, що заважали.
 Роблю зміни у Web Git на синхронізую їх з репозиторієм на ПК за допомогою git pull.
-![heavy-metal-skull-with-devil-horns-hand-small-buttons]( heavy-metal-skull-with-devil-horns-hand-small-buttons.jpg)
+![heavy-metal-skull-with-devil-horns-hand-small-buttons]( https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/heavy-metal-skull-with-devil-horns-hand-small-buttons.jpg)
  
