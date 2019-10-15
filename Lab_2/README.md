@@ -14,7 +14,8 @@
 9. Роблю коміт.
 10. Створюю Makefile, що буде автоматично запускати процес на віртуальній машині та роблю коміт.
 11. Пререходжу на віртуальну машину , клоную репозиторій та запускаю Makefile.
-![lab_2_screen]( https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/lab_2_screen.jpg)
+![lab_2_screen]( https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/lab_2_screen.JPG)
+
 
 
 
