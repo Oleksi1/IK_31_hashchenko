@@ -5,3 +5,5 @@
    - pipenv run django-admin startproject my_site
 3. За допомогою команди  "pipenv run python manage.py runserver" запускаю сервер, та переходжу за посиланням, що з'явилось у консолі.
 4. ![screenshot]( https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/screenshot.png)
+5. За допомогою команди "pipenv run python manage.py startapp main_page" створюю темплейт додатку main_page.
+6. 
