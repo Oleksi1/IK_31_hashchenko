@@ -17,7 +17,7 @@ RUN git clone https://github.com/IK-31-hashchenko/IK_31_hashchenko.git
 
 # Створюємо остаточну робочу папку з Веб-сайтом та копіюємо туди файли
 WORKDIR /app
-RUN cp -r /lab/IK-31-hashchenko/Lab_3/* .
+RUN cp -r /lab/IK_31_hashchenko/Lab_3/* .
 
 # Інсталюємо всі залежності
 RUN pipenv install
