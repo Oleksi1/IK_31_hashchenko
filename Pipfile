@@ -6,6 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+django = "*"
+requests = "*"
+datetime = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+server = "python manage.py runserver"
+monitoring = "python monitoring.py"
