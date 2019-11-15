@@ -23,5 +23,5 @@
 14. ![screenshot5](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/screenshot5.JPG)
 15. За допомогою команди `docker exec -it 9345саа7136d bash` заходжу в контейнер та шукаю потрібний log файл.
 16. За допомогою команди docker cp `9345саа7136d:/server.log server.log` копіюю його у папку з лабораторною роботою.
-17.Роблю фінальний коміт до репозиторію.
+17. Роблю фінальний коміт до репозиторію.
 
