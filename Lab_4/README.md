@@ -8,17 +8,20 @@
    - docker  pull python:3.7-slim
    - docker images
    - docker inspect python:3.7-slim
-5. Створюю Dockerfile, копіюю туди вміст файла - зразка, роблю необхідні зміни та виконую коміт до репозиторію.
+5. Створюю Dockerfile.site, копіюю туди вміст файла - зразка, роблю необхідні зміни та виконую коміт до репозиторію.
 6. Заходжу в свій аккаунт на Docker Hub та створюю репозиторій.
 7. Виконую білд Docker імейджа та завантажую його до репозиторію, за допомогою команд:
    - sudo docker build -t hashchenko/lab_4:django -f Dockerfile.site .
    - sudo docker images
    - sudo docker push hashchenko/lab_4:django 
-8. [Docker Hub link](https://hub.docker.com/r/hashchenko/ik-31_hashchenko)
-9. Посилання на скачування імейджа: `
-sudo docker run -it --name=django --rm -p 8000:8000 hashchenko/lab_4:django
-10. - sudo docker build -t hashchenko/lab_4:monitoring -f Dockerfile.monitoring .
-    sudo docker push hashchenko/lab_4:monitoring 
-sudo docker run -it --name=monitoring --net=host  --rm -p 8000:8000 hashchenko/lab_4:monitoring
-sudo docker run -it --rm  --name=monitoring -v shelter:/app --net=host hashchenko/lab_4
-sudo docker run -it --name=monitoring --rm -p 8000:8000 -v shelter:/app hashchenko/lab_4:django
+8. [Docker Hub link](https://hub.docker.com/r/hashchenko/lab_4)
+9. Посилання на скачування імейджа: `hashchenko/lab_4:django`
+10. Запускаю сервер за допомогою команди `sudo docker run -it --name=django --rm -p 8000:8000 hashchenko/lab_4:django`.
+11. ![screenshot4](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/screenshot4.JPG)
+12. Створю ще один файл під назвою Dockerfile.monitoring і поміщаю туди програму моніторингу. Виконую білд і присвоюю тег monitoring.
+13. Запускаю два контейнери у двох вкладках терміналу та перевіряю правильність роботи програми. Для коректної роботи використовую ключ --net=host.
+14. ![screenshot5](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/screenshot5.JPG)
+15. За допомогою команди `docker exec -it 9345саа7136d bash` заходжу в контейнер та шукаю потрібний log файл.
+16. За допомогою команди docker cp `9345саа7136d:/server.log server.log` копіюю його у папку з лабораторною роботою.
+17.Роблю фінальний коміт до репозиторію.
+
