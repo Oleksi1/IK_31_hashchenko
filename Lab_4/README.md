@@ -11,10 +11,11 @@
 5. Створюю Dockerfile, копіюю туди вміст файла - зразка, роблю необхідні зміни та виконую коміт до репозиторію.
 6. Заходжу в свій аккаунт на Docker Hub та створюю репозиторій.
 7. Виконую білд Docker імейджа та завантажую його до репозиторію, за допомогою команд:
-   - sudo docker build -t hashchenko/ik-31_hashchenko:django .
+   - sudo docker build -t hashchenko/lab_4:django -f Dockerfile.site .
    - sudo docker images
-   - udo docker push hashchenko/ik-31_hashchenko:django 
+   - sudo docker push hashchenko/lab_4:django 
 8. [Docker Hub link](https://hub.docker.com/r/hashchenko/ik-31_hashchenko)
-9. Посилання на скачування імейджа: `hashchenko/ik-31_hashchenko:django`
+9. Посилання на скачування імейджа: `
+sudo docker run -it --name=django --rm -p 8000:8000 hashchenko/lab_4:django
 10.
     
