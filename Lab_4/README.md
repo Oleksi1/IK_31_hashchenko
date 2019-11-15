@@ -17,5 +17,8 @@
 8. [Docker Hub link](https://hub.docker.com/r/hashchenko/ik-31_hashchenko)
 9. Посилання на скачування імейджа: `
 sudo docker run -it --name=django --rm -p 8000:8000 hashchenko/lab_4:django
-10.
-    
+10. - sudo docker build -t hashchenko/lab_4:monitoring -f Dockerfile.monitoring .
+    sudo docker push hashchenko/lab_4:monitoring 
+sudo docker run -it --name=monitoring --net=host  --rm -p 8000:8000 hashchenko/lab_4:monitoring
+sudo docker run -it --rm  --name=monitoring -v shelter:/app --net=host hashchenko/lab_4
+sudo docker run -it --name=monitoring --rm -p 8000:8000 -v shelter:/app hashchenko/lab_4:django

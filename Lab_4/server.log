@@ -1,0 +1,14 @@
+INFO 2019-10-27 20:25:22,875 root : Сервер доступний. Час на сервері: 2019-10-27T20:25:22.873
+INFO 2019-10-27 20:25:22,876 root : Запитувана сторінка: : http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:25:22,876 root : Відповідь сервера місти наступні поля:
+INFO 2019-10-27 20:25:22,876 root : Ключ: date, Значення: 2019-10-27T20:25:22.873
+INFO 2019-10-27 20:25:22,876 root : Ключ: current_page, Значення: http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:25:22,876 root : Ключ: server_info, Значення: {'system': 'Windows', 'version': '10.0.18362', 'node': 'DESKTOP-91KCDPM', 'processor': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'}
+INFO 2019-10-27 20:25:22,876 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-10-27 20:26:22,890 root : Сервер доступний. Час на сервері: 2019-10-27T20:26:22.888
+INFO 2019-10-27 20:26:22,890 root : Запитувана сторінка: : http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:26:22,890 root : Відповідь сервера місти наступні поля:
+INFO 2019-10-27 20:26:22,891 root : Ключ: date, Значення: 2019-10-27T20:26:22.888
+INFO 2019-10-27 20:26:22,891 root : Ключ: current_page, Значення: http://127.0.0.1:8000/health/
+INFO 2019-10-27 20:26:22,891 root : Ключ: server_info, Значення: {'system': 'Windows', 'version': '10.0.18362', 'node': 'DESKTOP-91KCDPM', 'processor': 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'}
+INFO 2019-10-27 20:26:22,891 root : Ключ: client_info, Значення: python-requests/2.22.0
