@@ -8,15 +8,15 @@
    -  `sudo apt-get install redis-server`  
 4. Роблю зміни у etc/hosts, для того, щоб перенаправити запити на адресу 127.0.0.1 redis.
 5. Після цього запускаю сервер і переконуюсь, що програма працює.
-6. ![screenshot6](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/screenshot4.JPG).
+6. ![screenshot6](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot6.JPG).
 7. У другому вікні терміналу запускаю тестування, за допомогою команди:
    -  'pipenv run pytest test_app.py --url http://localhost:5000'
-8. Тут буде скріншот 7.
+8.  ![screenshot7](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot7.JPG).
 9. Один з тестів виявив помилку. Для того, щоб всі тести виконались успішно, я створюю підпапку logs у папці my_app. 
-10. Тут буде скріншот 10.
+10.  ![screenshot10](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot10.JPG).
 11. Перевіряю, чи відкриваються в браузері сторінки /hits та /logs.
-12. Тут буде скріншот 8.
-13. Тут буде скріншот 9.
+12.  ![screenshot8](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot8.JPG).
+13.  ![screenshot9](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot9.JPG).
 14. Видаляю файли і папки, що були створені після тестового запуску.
 15. Створюю два Dockerfile та Makefile, відповідно до зразка.
 16. Ознайомлююсь з вмістом Dockerfile та Makefile, їх директивами.
@@ -32,32 +32,40 @@
 18. У двох вікнах терміналу запускаю додаток і тестую його за допомогою команд:
     - `make run`
     - `make test-app`
-19. Тут будуть скріншоти з результатами тестування.
-20. Перевіряю роботу сторінок сайту.
-21. Тут будуть скріншоти зі сторінками сайту.
-22. Зупиняю проект, та очищую ресурси Docker за допомогою команди:
+19.  ![screenshot11](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot11.JPG).
+20.  ![screenshot12](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot12.JPG).
+21. Перевіряю роботу сторінок сайту.
+22. ![screenshot13](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot13.JPG).
+23. ![screenshot14](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot14.JPG).
+24. ![screenshot15](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot15.JPG).
+25. Зупиняю проект, та очищую ресурси Docker за допомогою команди:
     - `make docker-prune`
-23. Створюю директиви у Makefile, для того, щоб зробити push до мого Docker репозиторію.
-24. [Docker Hub repository](https://hub.docker.com/repository/docker/hashchenko/lab_5)
-25. За допомогою Makefile автоматизую процес видалення імеджів.
-26. Тут буде скріншот з пустими імеджами.
+26. Створюю директиви у Makefile, для того, щоб зробити push до мого Docker репозиторію.
+27. [Docker Hub repository](https://hub.docker.com/repository/docker/hashchenko/lab_5)
+28. За допомогою Makefile автоматизую процес видалення імеджів.
+29. ![screenshot16](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot16.JPG).
 ## Docker compose ##
 1. Згідно зразка, створюю файл docker-compose.yml.В ньому створюються дві мережі: public і secret. Secret потрібна для комунікації внутрішніх ресурсів, а public для звичайних користувачів.
 2. Перевіряю роботу docker-compose та запускаю його.
     - `docker-compose version`
     - `docker-compose -p lab_5 up`
-3. Тут буде скріншот коду.
+3. ![screenshot17](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot17.JPG).
 4. Перевіряю, як працює сайт. Для цього заходжу на адресу 127.0.0.1
-5. Тут будуть скріншоти сайту.
-6. Перевіряю наявність імейджів.Імейджі мають теги compose-app і compose-tests. Змінюю репозиторій на свій, та перезапускаю docker-compose, перед тим очистивши імейджі за допомогою директиви Makefile.
-7. Тут будуть скріншоти з порівнянням імейджів.
-8. Очищую ресурси та роблю push до Docker репозиторію.
+5.  ![screenshot18](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot18.JPG).
+6. ![screenshot19](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot19.JPG).
+7. ![screenshot20](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot20.JPG).
+8. Перевіряю наявність імейджів.Імейджі мають теги compose-app і compose-tests. Змінюю репозиторій на свій, та перезапускаю docker-compose, перед тим очистивши імейджі за допомогою директиви Makefile.
+9. ![screenshot21](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot21.JPG).
+10.![screenshot22](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot22.JPG).
+11. Очищую ресурси та роблю push до Docker репозиторію.
 ## Завдання ##
 1. На мою думку, працювати з docker-compose значно зручніше, ніж з Makefile, адже docker-compose може запускати всю програму лише однією командою, що значно полегшує робту з великими проектами і економить час.
 2. У папці з лабораторною № 4 створюю файл docker-compose.yml. Він створює імейджі для сторінок сайту і моніторингу, тобто автоматизує роботу, що була виконана в 4 лабораторній.
 3. Запускаю його та перевіряю роботу сайту.
-4. Тут будуть скріншоти з роботою сайту.
-5. Зупиняю роботу проекту, та видаляю дані компоуза.
-6. Роблю push до Docker репозиторію.
+4. ![screenshot23](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot23.JPG).
+5. ![screenshot24](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot24.JPG).
+6. ![screenshot25](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/Lab_5/images/screenshot25.JPG).
+7. Зупиняю роботу проекту, та видаляю дані компоуза.
+8. Роблю push до Docker репозиторію.
 
 
