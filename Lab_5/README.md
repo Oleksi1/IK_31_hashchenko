@@ -6,9 +6,9 @@
    - `pipenv run python app.py`
 3. Під час запуску сервера виникає помилка: `redis.exceptions.ConnectionError: Error -2 connecting to redis:6379. Name or service not known.` Для вирішення проблеми встановлюю redis server за допомогою команд:
    -  `sudo apt-get install redis-server`  
-4. Також роблю зміни у etc/hosts, для того, щоб перенаправити запити на адресу 127.0.0.1 redis.
+4. Роблю зміни у etc/hosts, для того, щоб перенаправити запити на адресу 127.0.0.1 redis.
 5. Після цього запускаю сервер і переконуюсь, що програма працює.
-6. Тут буде скріншот 6.
+6. ![screenshot6](https://github.com/IK-31-hashchenko/IK_31_hashchenko/blob/master/screenshot4.JPG).
 7. У другому вікні терміналу запускаю тестування, за допомогою команди:
    -  'pipenv run pytest test_app.py --url http://localhost:5000'
 8. Тут буде скріншот 7.
