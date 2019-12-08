@@ -10,7 +10,7 @@ jobs:
       python: 3.7
       install:
         - cd ./Lab_2/
-        - sudo make install
+        - pipenv install
       script: make test || true
     - stage: "Build Lab 3."
       name: "Run Django Server and test it accessibility. Fail to run and test"
