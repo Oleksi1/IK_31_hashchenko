@@ -25,7 +25,7 @@ jobs:
       services:
         - docker
       before_install:
-        - chmod +x ./lab_*/scripts/travis-build.sh
+        - chmod +x ./Lab_*/scripts/travis-build.sh
       install:
         - cd ./Lab_4/
       script: ./scripts/travis-build.sh
