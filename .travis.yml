@@ -29,7 +29,7 @@ jobs:
       install:
         - cd ./Lab_4/
       script: ./scripts/travis-build.sh
-        - stage: "Build Lab 5."
+    - stage: "Build Lab 5."
       name: "Build and run Docker images via make"
       services:
         - docker
